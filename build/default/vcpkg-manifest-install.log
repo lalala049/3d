@@ -1,0 +1,12 @@
+Detecting compiler hash for triplet x64-mingw-dynamic...
+Compiler found: C:/Users/Lenovo/scoop/apps/mingw/current/bin/x86_64-w64-mingw32-g++.exe
+The following packages are already installed:
+    sdl3:x64-mingw-dynamic@3.4.12
+  * vcpkg-cmake:x64-mingw-dynamic@2024-04-23
+  * vcpkg-cmake-config:x64-mingw-dynamic@2026-07-21
+sdl3 provides CMake targets:
+
+  find_package(SDL3 CONFIG REQUIRED)
+  target_link_libraries(main PRIVATE SDL3::SDL3)
+
+All requested installations completed successfully in: 392 us

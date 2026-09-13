@@ -1,0 +1,14 @@
+{
+  "C:/Users/Lenovo/scoop/apps/mingw/current/bin/x86_64-w64-mingw32-g++.exe" : 
+  {
+    "hash" : "30f902a37dae4a513537e6dae5c8c0b2fe30fd26",
+    "size" : 3312640,
+    "timestamp" : 1786884725
+  },
+  "C:/Users/Lenovo/scoop/apps/mingw/current/bin/x86_64-w64-mingw32-gcc.exe" : 
+  {
+    "hash" : "61e94c92968887094d8cd62eb73f98b03f801965",
+    "size" : 3309056,
+    "timestamp" : 1786884736
+  }
+}

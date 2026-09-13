@@ -1,0 +1,3 @@
+D:/aboutCode/github/3D/build/default/CMakeFiles/3d.dir
+D:/aboutCode/github/3D/build/default/CMakeFiles/edit_cache.dir
+D:/aboutCode/github/3D/build/default/CMakeFiles/rebuild_cache.dir

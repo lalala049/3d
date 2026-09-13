@@ -1,0 +1,8 @@
+[
+{
+  "directory": "D:/aboutCode/github/3D/build/default",
+  "command": "C:\\Users\\Lenovo\\scoop\\apps\\mingw\\current\\bin\\gcc.exe -ID:/aboutCode/github/3D/build/default/vcpkg_installed/x64-mingw-dynamic/include -g -o CMakeFiles\\3d.dir\\main.c.obj -c D:\\aboutCode\\github\\3D\\main.c",
+  "file": "D:/aboutCode/github/3D/main.c",
+  "output": "D:/aboutCode/github/3D/build/default/CMakeFiles/3d.dir/main.c.obj"
+}
+]

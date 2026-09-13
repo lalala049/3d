@@ -1,0 +1,7 @@
+{
+  "name": "sdl3-3d",
+  "version-string": "0.1",
+  "dependencies": [
+    "sdl3"
+  ]
+}
