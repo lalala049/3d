@@ -1,12 +1,87 @@
 Detecting compiler hash for triplet x64-mingw-dynamic...
 Compiler found: C:/Users/Lenovo/scoop/apps/mingw/current/bin/x86_64-w64-mingw32-g++.exe
-The following packages are already installed:
+The following packages will be rebuilt:
     sdl3:x64-mingw-dynamic@3.4.12
   * vcpkg-cmake:x64-mingw-dynamic@2024-04-23
   * vcpkg-cmake-config:x64-mingw-dynamic@2026-07-21
+Additional packages (*) will be modified to complete this operation.
+Restored 0 package(s) from C:\Users\Lenovo\AppData\Local\vcpkg\archives in 343 us. Use --debug to see more details.
+Removing 1/6 sdl3:x64-mingw-dynamic
+Elapsed time to handle sdl3:x64-mingw-dynamic: 32.7 ms
+Removing 2/6 vcpkg-cmake:x64-mingw-dynamic
+Elapsed time to handle vcpkg-cmake:x64-mingw-dynamic: 9.14 ms
+Removing 3/6 vcpkg-cmake-config:x64-mingw-dynamic
+Elapsed time to handle vcpkg-cmake-config:x64-mingw-dynamic: 7.13 ms
+Installing 4/6 vcpkg-cmake-config:x64-mingw-dynamic@2026-07-21...
+vcpkg-cmake-config:x64-mingw-dynamic@2026-07-21 package ABI: e1f0d29f02f09a4eb05968a1db37bed0d22e8c25ecdbb437f5ea65e52c7c944f
+Building vcpkg-cmake-config:x64-mingw-dynamic@2026-07-21...
+C:\Users\Lenovo\scoop\apps\vcpkg\current\triplets\community\x64-mingw-dynamic.cmake: info: loaded community triplet from here. Community triplets are not built in the curated registry and are thus less likely to succeed.
+-- Installing: C:/Users/Lenovo/scoop/apps/vcpkg/current/packages/vcpkg-cmake-config_x64-mingw-dynamic/share/vcpkg-cmake-config/vcpkg_cmake_config_fixup.cmake
+-- Installing: C:/Users/Lenovo/scoop/apps/vcpkg/current/packages/vcpkg-cmake-config_x64-mingw-dynamic/share/vcpkg-cmake-config/vcpkg-port-config.cmake
+-- Installing: C:/Users/Lenovo/scoop/apps/vcpkg/current/packages/vcpkg-cmake-config_x64-mingw-dynamic/share/vcpkg-cmake-config/copyright
+-- Skipping post-build validation due to VCPKG_POLICY_EMPTY_PACKAGE
+Starting submission of vcpkg-cmake-config:x64-mingw-dynamic@2026-07-21 to 1 binary cache(s) in the background
+Elapsed time to handle vcpkg-cmake-config:x64-mingw-dynamic: 152 ms
+Installing 5/6 vcpkg-cmake:x64-mingw-dynamic@2024-04-23...
+vcpkg-cmake:x64-mingw-dynamic@2024-04-23 package ABI: 8edb41330f81b29165846614785945d6eced47b5343cd1c45a1a3f73b2eb3a4b
+Building vcpkg-cmake:x64-mingw-dynamic@2024-04-23...
+C:\Users\Lenovo\scoop\apps\vcpkg\current\triplets\community\x64-mingw-dynamic.cmake: info: loaded community triplet from here. Community triplets are not built in the curated registry and are thus less likely to succeed.
+-- Installing: C:/Users/Lenovo/scoop/apps/vcpkg/current/packages/vcpkg-cmake_x64-mingw-dynamic/share/vcpkg-cmake/vcpkg_cmake_configure.cmake
+-- Installing: C:/Users/Lenovo/scoop/apps/vcpkg/current/packages/vcpkg-cmake_x64-mingw-dynamic/share/vcpkg-cmake/vcpkg_cmake_build.cmake
+-- Installing: C:/Users/Lenovo/scoop/apps/vcpkg/current/packages/vcpkg-cmake_x64-mingw-dynamic/share/vcpkg-cmake/vcpkg_cmake_install.cmake
+-- Installing: C:/Users/Lenovo/scoop/apps/vcpkg/current/packages/vcpkg-cmake_x64-mingw-dynamic/share/vcpkg-cmake/vcpkg-port-config.cmake
+-- Installing: C:/Users/Lenovo/scoop/apps/vcpkg/current/packages/vcpkg-cmake_x64-mingw-dynamic/share/vcpkg-cmake/copyright
+-- Performing post-build validation
+Starting submission of vcpkg-cmake:x64-mingw-dynamic@2024-04-23 to 1 binary cache(s) in the background
+Elapsed time to handle vcpkg-cmake:x64-mingw-dynamic: 188 ms
+Completed submission of vcpkg-cmake-config:x64-mingw-dynamic@2026-07-21 to 1 binary cache(s) in 107 ms
+Installing 6/6 sdl3:x64-mingw-dynamic@3.4.12...
+sdl3:x64-mingw-dynamic@3.4.12 package ABI: 219b767e1247f48f5275adf538ca1d61d5b85a4c738385892ef91a36d9701249
+Building sdl3:x64-mingw-dynamic@3.4.12...
+C:\Users\Lenovo\scoop\apps\vcpkg\current\triplets\community\x64-mingw-dynamic.cmake: info: loaded community triplet from here. Community triplets are not built in the curated registry and are thus less likely to succeed.
+-- Using cached libsdl-org-SDL-release-3.4.12.tar.gz
+-- Cleaning sources at C:/Users/Lenovo/scoop/apps/vcpkg/current/buildtrees/sdl3/src/ase-3.4.12-441a9855e8.clean. Use --editable to skip cleaning for the packages you specify.
+-- Extracting source C:/Users/Lenovo/scoop/apps/vcpkg/current/downloads/libsdl-org-SDL-release-3.4.12.tar.gz
+-- Applying patch fix-freebsd.patch
+-- Using source at C:/Users/Lenovo/scoop/apps/vcpkg/current/buildtrees/sdl3/src/ase-3.4.12-441a9855e8.clean
+-- Configuring x64-mingw-dynamic
+CMake Warning at D:/aboutCode/github/3D/build/default/vcpkg_installed/x64-mingw-dynamic/share/vcpkg-cmake/vcpkg_cmake_configure.cmake:344 (message):
+  The following variables are not used in CMakeLists.txt:
+
+      SDL_UNIX_CONSOLE_BUILD
+
+  Please recheck them and remove the unnecessary options from the
+  `vcpkg_cmake_configure` call.
+
+  If these options should still be passed for whatever reason, please use the
+  `MAYBE_UNUSED_VARIABLES` argument.
+Call Stack (most recent call first):
+  ports/sdl3/portfile.cmake:58 (vcpkg_cmake_configure)
+  scripts/ports.cmake:209 (include)
+
+
+-- Building x64-mingw-dynamic-dbg
+-- Building x64-mingw-dynamic-rel
+-- Fixing pkgconfig file: C:/Users/Lenovo/scoop/apps/vcpkg/current/packages/sdl3_x64-mingw-dynamic/lib/pkgconfig/sdl3.pc
+-- Using cached msys2-mingw-w64-x86_64-pkgconf-1~2.5.1-1-any.pkg.tar.zst
+-- Using cached msys2-msys2-runtime-3.6.5-1-x86_64.pkg.tar.zst
+-- Using msys root at C:/Users/Lenovo/scoop/apps/vcpkg/current/downloads/tools/msys2/3e71d1f8e22ab23f
+-- Fixing pkgconfig file: C:/Users/Lenovo/scoop/apps/vcpkg/current/packages/sdl3_x64-mingw-dynamic/debug/lib/pkgconfig/sdl3.pc
+-- Installing: C:/Users/Lenovo/scoop/apps/vcpkg/current/packages/sdl3_x64-mingw-dynamic/share/sdl3/usage
+-- Performing post-build validation
+Starting submission of sdl3:x64-mingw-dynamic@3.4.12 to 1 binary cache(s) in the background
+Elapsed time to handle sdl3:x64-mingw-dynamic: 3.8 min
+Installed contents are licensed to you by owners. Microsoft is not responsible for, nor does it grant any licenses to, third-party packages.
+Packages installed in this vcpkg installation declare the following licenses:
+Apache-2.0
+MIT
+Zlib
 sdl3 provides CMake targets:
 
   find_package(SDL3 CONFIG REQUIRED)
   target_link_libraries(main PRIVATE SDL3::SDL3)
 
-All requested installations completed successfully in: 392 us
+Completed submission of vcpkg-cmake:x64-mingw-dynamic@2024-04-23 to 1 binary cache(s) in 77.5 ms
+Waiting for 1 remaining binary cache submissions...
+Completed submission of sdl3:x64-mingw-dynamic@3.4.12 to 1 binary cache(s) in 1.4 s (1/1)
+All requested installations completed successfully in: 3.8 min
